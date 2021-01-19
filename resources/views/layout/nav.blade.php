@@ -4,12 +4,12 @@
         <li class="nav-item">
             <a class="nav-link {{Route::is('home') ? 'active' : ''}}" href="/">Home</a>
         </li>
-      <li class="nav-item">
+    <li class="nav-item">
         <a class="nav-link {{Route::is('create') ? 'active' : ''}}"  href="/create">Create</a>
-      </li>
-      <li class="nav-item">
+    </li>
+    <li class="nav-item">
         <a class="nav-link {{Route::is('edit') ? 'active' : ''}}" href="/edit">Edit</a>
-      </li>
+    </li>
     </ul>
   </div>
 </nav>
